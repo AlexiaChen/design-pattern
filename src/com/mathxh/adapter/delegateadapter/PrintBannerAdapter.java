@@ -1,6 +1,6 @@
 package com.mathxh.adapter.delegateadapter;
 
-public class PrintBannerAdapter implements Print {
+public class PrintBannerAdapter extends Print {
 
     private Banner banner;
 
