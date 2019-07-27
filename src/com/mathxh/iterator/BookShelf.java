@@ -1,20 +1,22 @@
 package com.mathxh.iterator;
 
+import java.util.ArrayList;
+
 public class BookShelf implements Aggregate {
-    private Book[] books;
-    private int last = 0;
-    public BookShelf(int maxSize) {
-        this.books = new Book[maxSize];
+    private ArrayList<Book> books;
+
+    public BookShelf() {
+        this.books = new ArrayList<>();
     }
     public Book indexAt(int index) {
-        return books[index];
+        return books.get(index);
     }
     public void append(Book book) {
-        this.books[last] = book;
-        last++;
+        this.books.add(book);
+
     }
     public int length() {
-        return last;
+        return books.size();
     }
     @Override
     public Iterator iterator() {
