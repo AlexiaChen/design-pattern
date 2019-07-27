@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7018f96-f873-4a9b-9097-41ff6618cfbf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/mathxh/adapter/extendadapter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/adapter/extendadapter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mathxh/adapter/extendadapter/PrintBanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/adapter/extendadapter/PrintBannerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/adapter/delegateadapter/Banner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/adapter/delegateadapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/adapter/delegateadapter/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/adapter/delegateadapter/PrintBannerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +31,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/mathxh/adapter/delegateadapter" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/mathxh/adapter/delegateadapter" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,6 +57,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mathxh.iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mathxh.adapter.delegateadapter.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mathxh.adapter.delegateadapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,6 +108,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -100,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564260476254</updated>
-      <workItem from="1564260480378" duration="2132000" />
+      <workItem from="1564260480378" duration="2445000" />
     </task>
     <servers />
   </component>
