@@ -1,8 +1,8 @@
 package com.mathxh.adapter.extendadapter;
 
-public class PrintBanner extends Banner implements  Print {
+public class PrintBannerAdapter extends Banner implements  Print {
 
-    public PrintBanner(String content) {
+    public PrintBannerAdapter(String content) {
         super(content);
     }
 
