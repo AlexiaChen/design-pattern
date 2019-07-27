@@ -1,4 +1,4 @@
-package com.mathxh.adapter.delegateadapter;
+package com.mathxh.Adapter.DelegateAdapter;
 
 public class Main {
     public static void main(String[] args) {

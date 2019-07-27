@@ -1,4 +1,4 @@
-package com.mathxh.adapter.extendadapter;
+package com.mathxh.Adapter.ExtendAdapter;
 
 public class PrintBannerAdapter extends Banner implements  Print {
 

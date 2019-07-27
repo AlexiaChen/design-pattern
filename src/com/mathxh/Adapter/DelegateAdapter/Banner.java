@@ -1,4 +1,4 @@
-package com.mathxh.adapter.extendadapter;
+package com.mathxh.Adapter.DelegateAdapter;
 
 public class Banner {
     private String content;

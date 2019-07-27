@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7018f96-f873-4a9b-9097-41ff6618cfbf" name="Default Changelist" comment="" />
+    <list default="true" id="f7018f96-f873-4a9b-9097-41ff6618cfbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/TemplateMethod/AbstractDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/TemplateMethod/CharDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/TemplateMethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/TemplateMethod/StringDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/adapter/delegateadapter/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Adapter/DelegateAdapter/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/adapter/delegateadapter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Adapter/DelegateAdapter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/adapter/delegateadapter/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Adapter/DelegateAdapter/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/adapter/delegateadapter/PrintBannerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Adapter/DelegateAdapter/PrintBannerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/adapter/extendadapter/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Adapter/ExtendAdapter/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/adapter/extendadapter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Adapter/ExtendAdapter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/adapter/extendadapter/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Adapter/ExtendAdapter/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/adapter/extendadapter/PrintBannerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Adapter/ExtendAdapter/PrintBannerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/iterator/Aggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Iterator/Aggregate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/iterator/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Iterator/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/iterator/BookShelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Iterator/BookShelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/iterator/BookShelfIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Iterator/BookShelfIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/iterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Iterator/Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/iterator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Iterator/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,26 +64,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mathxh.iterator.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.mathxh.TemplateMethod.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mathxh.iterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mathxh.adapter.delegateadapter.Main" />
-      <module name="design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mathxh.adapter.delegateadapter.*" />
+          <option name="PATTERN" value="com.mathxh.TemplateMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,6 +101,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mathxh.Iterator.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mathxh.Iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mathxh.Adapter.DelegateAdapter.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mathxh.Adapter.DelegateAdapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
@@ -101,6 +134,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
@@ -117,7 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564260476254</updated>
-      <workItem from="1564260480378" duration="2690000" />
+      <workItem from="1564260480378" duration="4690000" />
     </task>
     <servers />
   </component>

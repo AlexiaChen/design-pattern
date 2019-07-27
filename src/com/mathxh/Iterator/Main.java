@@ -1,4 +1,4 @@
-package com.mathxh.iterator;
+package com.mathxh.Iterator;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.mathxh.iterator;
+package com.mathxh.Iterator;
 
 public class BookShelfIterator implements Iterator {
     private BookShelf bookShelf;

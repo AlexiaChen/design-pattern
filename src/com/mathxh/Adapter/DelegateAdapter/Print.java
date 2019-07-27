@@ -1,4 +1,4 @@
-package com.mathxh.adapter.delegateadapter;
+package com.mathxh.Adapter.DelegateAdapter;
 
 public abstract class Print {
     public abstract  void printWeak();

@@ -1,4 +1,4 @@
-package com.mathxh.iterator;
+package com.mathxh.Iterator;
 
 import java.util.ArrayList;
 
