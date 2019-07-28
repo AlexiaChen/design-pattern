@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7018f96-f873-4a9b-9097-41ff6618cfbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Prototype/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Prototype/MessageBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Prototype/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Prototype/ProductManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Prototype/UnderlinePen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Builder/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Builder/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Builder/HTMLBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Builder/TextBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Prototype/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Prototype/Product.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mathxh.TemplateMethod.Main" />
       <module name="design-pattern" />
@@ -104,12 +105,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mathxh.Builder.Main" />
       <module name="design-pattern" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mathxh.Builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,19 +158,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564260476254</updated>
       <workItem from="1564260480378" duration="7600000" />
-      <workItem from="1564337760153" duration="1736000" />
+      <workItem from="1564337760153" duration="5179000" />
     </task>
     <servers />
   </component>
