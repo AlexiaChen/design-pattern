@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7018f96-f873-4a9b-9097-41ff6618cfbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/AbstractFactory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/AbstractFactory/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/AbstractFactory/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/AbstractFactory/ListFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/AbstractFactory/ListLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/AbstractFactory/ListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/AbstractFactory/ListTray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/AbstractFactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/AbstractFactory/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/AbstractFactory/TableFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/AbstractFactory/TableLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/AbstractFactory/TablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/AbstractFactory/TableTray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/AbstractFactory/Tray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Bridge/CountDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Bridge/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Bridge/DisplayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Bridge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Bridge/StringDisplayImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,20 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (6)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mathxh.FactoryMethod.Main" />
-      <module name="design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mathxh.FactoryMethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mathxh.Singleton.Main" />
       <module name="design-pattern" />
@@ -127,6 +105,19 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mathxh.Bridge.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mathxh.Bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mathxh.Iterator.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
@@ -153,19 +144,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main (6)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (6)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +172,7 @@
       <updated>1564260476254</updated>
       <workItem from="1564260480378" duration="7600000" />
       <workItem from="1564337760153" duration="10356000" />
-      <workItem from="1564848930699" duration="1138000" />
+      <workItem from="1564848930699" duration="2246000" />
     </task>
     <servers />
   </component>
