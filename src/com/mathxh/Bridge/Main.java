@@ -9,6 +9,7 @@ public class Main {
         display2.dispaly();
 
         CountDisplay display3 = new CountDisplay(new StringDisplayImpl("Hey, Earth"));
+        display3.dispaly();
         display3.multiDisplay(5);
     }
 }

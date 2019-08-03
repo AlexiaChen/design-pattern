@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7018f96-f873-4a9b-9097-41ff6618cfbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Bridge/CountDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Bridge/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Bridge/DisplayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Bridge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Bridge/StringDisplayImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Bridge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Bridge/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +167,7 @@
       <updated>1564260476254</updated>
       <workItem from="1564260480378" duration="7600000" />
       <workItem from="1564337760153" duration="10356000" />
-      <workItem from="1564848930699" duration="2246000" />
+      <workItem from="1564848930699" duration="2569000" />
     </task>
     <servers />
   </component>
