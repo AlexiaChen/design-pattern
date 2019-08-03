@@ -1,5 +1,10 @@
 package com.mathxh.Builder;
 
+/*
+*  建造者模式： 组装复杂的实例。建造者可以有多个不同的类型建造者，然后由监工来构造建造大概的建造目标
+*
+*/
+
 public class Main {
     public static void main(String[] args) {
         if (args.length != 1) {

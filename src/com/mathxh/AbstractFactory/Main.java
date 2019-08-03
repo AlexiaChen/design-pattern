@@ -1,5 +1,10 @@
 package com.mathxh.AbstractFactory;
 
+/*
+*  抽象工厂模式： 将关联零件组装成产品。将抽象零件组装为抽象产品，这个抽象产品有很大的共性。不关心零件的具体实现
+*
+*/
+
 public class Main {
     public static void main(String[] args) {
         if (args.length != 1) {

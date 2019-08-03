@@ -1,5 +1,12 @@
 package com.mathxh.Bridge;
 
+/*
+*
+*   桥接模式： 将类的功能层次结构与实现层次结构分离
+*
+*
+*/
+
 public class Main {
     public static void main(String[] args) {
         Display display1 = new Display(new StringDisplayImpl("Hello, China."));
