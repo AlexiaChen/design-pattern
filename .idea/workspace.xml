@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7018f96-f873-4a9b-9097-41ff6618cfbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Composite/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Composite/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Composite/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Composite/FileTreatMentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Composite/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Decorator/Border.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Decorator/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Decorator/FullBorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Decorator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Decorator/SideBorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Decorator/StringDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Hand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mathxh.Strategy.Hand" />
       <module name="design-pattern" />
@@ -91,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mathxh.AbstractFactory.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mathxh.Decorator.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mathxh.AbstractFactory.*" />
+          <option name="PATTERN" value="com.mathxh.Decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,19 +145,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (6)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Hand" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Hand" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (6)" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +173,7 @@
       <updated>1564260476254</updated>
       <workItem from="1564260480378" duration="7600000" />
       <workItem from="1564337760153" duration="10356000" />
-      <workItem from="1564848930699" duration="13708000" />
+      <workItem from="1564848930699" duration="15957000" />
     </task>
     <servers />
   </component>
