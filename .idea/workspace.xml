@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7018f96-f873-4a9b-9097-41ff6618cfbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/ChainOfResponsibility/LimitSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/ChainOfResponsibility/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/ChainOfResponsibility/NoSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/ChainOfResponsibility/OddSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/ChainOfResponsibility/SpecialSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/ChainOfResponsibility/Support.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/ChainOfResponsibility/Trouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Facade/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Facade/HTMLWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Facade/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Facade/PageMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Facade/maildata.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/welcome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +28,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ObyE391jFcfGWeIqPm55hVMICM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -53,20 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mathxh.Strategy.Main" />
-      <module name="design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mathxh.Strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mathxh.Composite.Main" />
       <module name="design-pattern" />
@@ -120,6 +113,19 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mathxh.Facade.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mathxh.Facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mathxh.Adapter.DelegateAdapter.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
@@ -133,19 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +168,7 @@
       <workItem from="1564260480378" duration="7600000" />
       <workItem from="1564337760153" duration="10356000" />
       <workItem from="1564848930699" duration="20208000" />
-      <workItem from="1565517794831" duration="1598000" />
+      <workItem from="1565517794831" duration="5983000" />
     </task>
     <servers />
   </component>
@@ -181,5 +187,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
