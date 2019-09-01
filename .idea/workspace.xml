@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7018f96-f873-4a9b-9097-41ff6618cfbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/State/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/State/DayState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/State/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/State/NightState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/State/SafeFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/State/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Flyweight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Proxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Proxy/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Proxy/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Proxy/PrinterProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mathxh.Mediator.Main" />
       <module name="design-pattern" />
@@ -112,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mathxh.Facade.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mathxh.Proxy.Main" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mathxh.Facade.*" />
+          <option name="PATTERN" value="com.mathxh.Proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,19 +138,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +168,7 @@
       <workItem from="1564337760153" duration="10356000" />
       <workItem from="1564848930699" duration="20208000" />
       <workItem from="1565517794831" duration="7859000" />
-      <workItem from="1567248242258" duration="12824000" />
+      <workItem from="1567248242258" duration="14579000" />
     </task>
     <servers />
   </component>
