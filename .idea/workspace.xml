@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7018f96-f873-4a9b-9097-41ff6618cfbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Command/DrawCanvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Command/DrawCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Command/Drawable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Command/MacroCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Command/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -157,7 +152,7 @@
       <workItem from="1564848930699" duration="20208000" />
       <workItem from="1565517794831" duration="7859000" />
       <workItem from="1567248242258" duration="15481000" />
-      <workItem from="1567454276365" duration="1642000" />
+      <workItem from="1567454276365" duration="2946000" />
     </task>
     <servers />
   </component>
