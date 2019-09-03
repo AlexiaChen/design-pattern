@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7018f96-f873-4a9b-9097-41ff6618cfbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ASTNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/CommandListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/CommandNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ParseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/PrimitiveCommandNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ProgramNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/RepeatCommandNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,20 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (6)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mathxh.Observer.Main" />
-      <module name="design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mathxh.Observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mathxh.Memento.Main" />
       <module name="design-pattern" />
@@ -120,20 +115,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mathxh.Interpreter.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mathxh.Interpreter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main (6)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (6)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +160,7 @@
       <workItem from="1564848930699" duration="20208000" />
       <workItem from="1565517794831" duration="7859000" />
       <workItem from="1567248242258" duration="15481000" />
-      <workItem from="1567454276365" duration="2946000" />
+      <workItem from="1567454276365" duration="7939000" />
     </task>
     <servers />
   </component>
