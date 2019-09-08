@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7018f96-f873-4a9b-9097-41ff6618cfbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ExecuteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/Executor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ExecutorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/GUIMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/InterpreterFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/RobotCanvas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ASTNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ASTNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/CommandListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/CommandListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/CommandNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/CommandNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/PrimitiveCommandNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/PrimitiveCommandNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ProgramNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ProgramNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/RepeatCommandNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/RepeatCommandNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/GUIMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/GUIMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +153,7 @@
       <workItem from="1565517794831" duration="7859000" />
       <workItem from="1567248242258" duration="15481000" />
       <workItem from="1567454276365" duration="9272000" />
-      <workItem from="1567964147390" duration="7085000" />
+      <workItem from="1567964147390" duration="7848000" />
     </task>
     <servers />
   </component>

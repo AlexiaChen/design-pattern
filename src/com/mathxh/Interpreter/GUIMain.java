@@ -9,8 +9,7 @@ import java.awt.event.WindowEvent;
 public class GUIMain extends Frame implements ActionListener {
     private RobotCanvas canvas = new RobotCanvas(400,400);
     private InterpreterFacade facade = new InterpreterFacade(canvas);
-    private TextField programTextField = new TextField("program repeat 3 go right go left end end");
-
+    private TextField programTextField = new TextField("program repeat 4 repeat 3 go right go left end right end  end");
     public GUIMain(String title) {
         super(title);
 
