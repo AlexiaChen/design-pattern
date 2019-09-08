@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7018f96-f873-4a9b-9097-41ff6618cfbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ASTNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/CommandListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/CommandNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ParseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/PrimitiveCommandNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ProgramNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/RepeatCommandNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ExecuteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ExecutorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/GUIMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/InterpreterFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/RobotCanvas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ASTNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ASTNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/CommandListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/CommandListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/CommandNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/CommandNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/PrimitiveCommandNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/PrimitiveCommandNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ProgramNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/ProgramNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mathxh/Interpreter/RepeatCommandNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mathxh/Interpreter/RepeatCommandNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,13 +66,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mathxh.Memento.Main" />
+  <component name="RunManager" selected="Application.GUIMain">
+    <configuration name="GUIMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mathxh.Interpreter.GUIMain" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mathxh.Memento.*" />
+          <option name="PATTERN" value="com.mathxh.Interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,19 +133,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main (6)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.GUIMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GUIMain" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (6)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +164,8 @@
       <workItem from="1564848930699" duration="20208000" />
       <workItem from="1565517794831" duration="7859000" />
       <workItem from="1567248242258" duration="15481000" />
-      <workItem from="1567454276365" duration="7939000" />
+      <workItem from="1567454276365" duration="9272000" />
+      <workItem from="1567964147390" duration="7085000" />
     </task>
     <servers />
   </component>

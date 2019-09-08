@@ -1,6 +1,7 @@
 package com.mathxh.Interpreter;
 
 // <program> ::= program <command list>
+// root node
 public class ProgramNode extends ASTNode {
     private ASTNode commandListNode;
 
@@ -13,5 +14,10 @@ public class ProgramNode extends ASTNode {
 
     public String toString() {
         return "(program " + commandListNode.toString() + ")";
+    }
+
+    @Override
+    public void execute() throws ExecuteException {
+        commandListNode.execute();
     }
 }

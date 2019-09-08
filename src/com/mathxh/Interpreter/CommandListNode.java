@@ -30,4 +30,11 @@ public class CommandListNode extends ASTNode {
         });
         return s.toString();
     }
+
+    @Override
+    public void execute() throws ExecuteException {
+        for (ASTNode astNode : list) {
+            ((CommandNode) astNode).execute();
+        }
+    }
 }

@@ -17,4 +17,11 @@ public class RepeatCommandNode extends ASTNode {
     public String toString() {
         return "(repeat " + number + " " + commandList.toString() + ")";
     }
+
+    @Override
+    public void execute() throws ExecuteException {
+        for(int i = 0; i < number; ++i) {
+            commandList.execute();
+        }
+    }
 }

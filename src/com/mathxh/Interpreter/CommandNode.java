@@ -18,4 +18,9 @@ public class CommandNode extends ASTNode {
     public String toString() {
         return command.toString();
     }
+
+    @Override
+    public void execute() throws ExecuteException {
+        command.execute();
+    }
 }

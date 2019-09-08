@@ -2,7 +2,8 @@ package com.mathxh.Interpreter;
 
 import java.util.StringTokenizer;
 
-public class Context {
+public class Context implements ExecutorFactory {
+    private ExecutorFactory factory;
     private StringTokenizer tokenizer;
     private String currentToken;
 
@@ -39,5 +40,18 @@ public class Context {
             throw new ParseException("Warning: " + e.toString());
         }
         return number;
+    }
+
+    public void setExecutorFactory(ExecutorFactory factory) {
+        this.factory = factory;
+    }
+
+    @Override
+    public Executor createExecutor(String name) {
+        if(factory != null) {
+            return factory.createExecutor(name);
+        } else {
+            return null;
+        }
     }
 }
